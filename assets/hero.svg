@@ -75,19 +75,21 @@
     CS Student | Building Across Tech
   </text>
 
- <!-- Clickable LinkedIn -->
-<a href="https://www.linkedin.com/in/beenishmajeed/" target="_blank">
+  <!-- Clickable LinkedIn -->
+  <a href="https://www.linkedin.com/in/beenishmajeed/"
+     target="_blank">
 
-  <text x="450" y="126"
-        text-anchor="middle"
-        font-family="SFMono-Regular,Consolas,monospace"
-        font-size="12"
-        fill="#6a5a8a"
-        style="cursor:pointer">
-    linkedin.com/in/beenishmajeed
-  </text>
+    <text x="450" y="126"
+          text-anchor="middle"
+          font-family="SFMono-Regular,Consolas,monospace"
+          font-size="12"
+          fill="#6a5a8a"
+          style="cursor:pointer">
+      linkedin.com/in/beenishmajeed
+    </text>
 
-</a>
+  </a>
+
   <!-- Skills -->
   <g font-family="SFMono-Regular,Consolas,monospace"
      font-size="13"
@@ -171,7 +173,7 @@
       AI Agents
     </text>
 
-    <!-- Frontend -->
+    <!-- Frontend Development -->
     <rect x="592" y="155"
           width="220" height="34"
           rx="17"
