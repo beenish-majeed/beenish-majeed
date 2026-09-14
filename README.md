@@ -15,13 +15,10 @@
 </div>
 
 <br/>
-
 <div align="center">
-  <img src="assets/activity.svg" width="100%" alt="Activity pulse contribution heatmap"/>
+
+`Thanks for stopping by!` ✨
+
 </div>
 
-<br/>
 
-<div align="center">
-  <img src="assets/projects.svg" width="100%" alt="Primary deployments: featured projects"/>
-</div>
