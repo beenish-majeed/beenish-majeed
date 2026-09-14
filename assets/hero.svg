@@ -1,24 +1,189 @@
 <svg width="900" height="260" viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg">
-<defs>
-<radialGradient id="glow1" cx="15%" cy="10%" r="60%">
-<stop offset="0%" stop-color="#ff2d95" stop-opacity="0.35"/>
-<stop offset="100%" stop-color="#ff2d95" stop-opacity="0"/>
-</radialGradient>
-<radialGradient id="glow2" cx="85%" cy="15%" r="60%">
-<stop offset="0%" stop-color="#7b2ff7" stop-opacity="0.4"/>
-<stop offset="100%" stop-color="#7b2ff7" stop-opacity="0"/>
-</radialGradient>
-</defs>
-<rect width="900" height="260" rx="16" fill="#0a0716"/>
-<rect width="900" height="260" rx="16" fill="url(#glow1)"/>
-<rect width="900" height="260" rx="16" fill="url(#glow2)"/>
-<rect x="0.5" y="0.5" width="899" height="259" rx="16" fill="none" stroke="#2a1f45"/>
-<path d="M28 24 L28 40 L44 40" stroke="#8b7bb0" stroke-width="2" fill="none"/>
-<circle cx="872" cy="28" r="9" fill="none" stroke="#8b7bb0"/>
-<text x="872" y="32" text-anchor="middle" font-family='SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace' font-size="11" fill="#8b7bb0">&#215;</text>
-<text x="450" y="70" text-anchor="middle" font-family='SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace' font-size="26" font-weight="700" fill="#e5e0ff">BEENISH MAJEED</text>
-<text x="450" y="98" text-anchor="middle" font-family='SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace' font-size="14" letter-spacing="3" fill="#ff8fd0">AI develpor</text>
-<text x="450" y="122" text-anchor="middle" font-family='SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace' font-size="12.5" letter-spacing="2" fill="#8b7bb0">AI / LLM &#183; RAG &amp; AGENTS &#183; FULL-STACK</text>
-<text x="450" y="146" text-anchor="middle" font-family='SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace' font-size="12" fill="#6a5a8a">github.com/beenish-majeed</text>
-<rect x="60" y="170" width="50" height="34" rx="17" fill="none" stroke="#3d3060"/><text x="85.0" y="192" text-anchor="middle" font-family='SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace' font-size="13" font-weight="600" fill="#e5e0ff">C</text><rect x="122" y="170" width="66" height="34" rx="17" fill="none" stroke="#3d3060"/><text x="155.0" y="192" text-anchor="middle" font-family='SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace' font-size="13" font-weight="600" fill="#e5e0ff">C++</text><rect x="200" y="170" width="100" height="34" rx="17" fill="#2b6ef5" stroke="#2b6ef5"/><text x="250.0" y="192" text-anchor="middle" font-family='SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace' font-size="13" font-weight="600" fill="#ffffff">Python</text><rect x="312" y="170" width="100" height="34" rx="17" fill="none" stroke="#3d3060"/><text x="362.0" y="192" text-anchor="middle" font-family='SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace' font-size="13" font-weight="600" fill="#e5e0ff">FastAPI</text><rect x="424" y="170" width="100" height="34" rx="17" fill="none" stroke="#3d3060"/><text x="474.0" y="192" text-anchor="middle" font-family='SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace' font-size="13" font-weight="600" fill="#e5e0ff">Next.js</text><rect x="536" y="170" width="90" height="34" rx="17" fill="none" stroke="#3d3060"/><text x="581.0" y="192" text-anchor="middle" font-family='SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace' font-size="13" font-weight="600" fill="#e5e0ff">SQLite</text><rect x="638" y="170" width="70" height="34" rx="17" fill="none" stroke="#ff5f9e"/><text x="673.0" y="192" text-anchor="middle" font-family='SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace' font-size="13" font-weight="600" fill="#ff9dc4">LLMs</text><rect x="720" y="170" width="66" height="34" rx="17" fill="none" stroke="#3d3060"/><text x="753.0" y="192" text-anchor="middle" font-family='SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace' font-size="13" font-weight="600" fill="#e5e0ff">RAG</text>
+  <defs>
+    <radialGradient id="glow1" cx="15%" cy="10%" r="60%">
+      <stop offset="0%" stop-color="#ff2d95" stop-opacity="0.35">
+        <animate attributeName="stop-color"
+          values="#ff2d95;#7b2ff7;#2b6ef5;#ff2d95"
+          dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#ff2d95" stop-opacity="0"/>
+      <animate attributeName="cx"
+        values="15%;35%;15%"
+        dur="10s" repeatCount="indefinite"/>
+    </radialGradient>
+
+    <radialGradient id="glow2" cx="85%" cy="15%" r="60%">
+      <stop offset="0%" stop-color="#7b2ff7" stop-opacity="0.4">
+        <animate attributeName="stop-color"
+          values="#7b2ff7;#2b6ef5;#ff2d95;#7b2ff7"
+          dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#7b2ff7" stop-opacity="0"/>
+      <animate attributeName="cx"
+        values="85%;65%;85%"
+        dur="10s" repeatCount="indefinite"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="260" rx="16" fill="#0a0716"/>
+  <rect width="900" height="260" rx="16" fill="url(#glow1)"/>
+  <rect width="900" height="260" rx="16" fill="url(#glow2)"/>
+
+  <!-- Border -->
+  <rect x="0.5" y="0.5"
+        width="899" height="259"
+        rx="16"
+        fill="none"
+        stroke="#2a1f45"/>
+
+  <!-- Decorative elements -->
+  <path d="M28 24 L28 40 L44 40"
+        stroke="#8b7bb0"
+        stroke-width="2"
+        fill="none"/>
+
+  <circle cx="872" cy="28" r="9"
+          fill="none"
+          stroke="#8b7bb0"/>
+
+  <text x="872" y="32"
+        text-anchor="middle"
+        font-family="SFMono-Regular,Consolas,monospace"
+        font-size="11"
+        fill="#8b7bb0">
+    &#215;
+  </text>
+
+  <!-- Name -->
+  <text x="450" y="70"
+        text-anchor="middle"
+        font-family="SFMono-Regular,Consolas,monospace"
+        font-size="26"
+        font-weight="700"
+        fill="#e5e0ff">
+    BEENISH MAJEED
+  </text>
+
+  <!-- Tagline -->
+  <text x="450" y="98"
+        text-anchor="middle"
+        font-family="SFMono-Regular,Consolas,monospace"
+        font-size="14"
+        letter-spacing="2"
+        fill="#ff8fd0">
+    CS Student | Building Across Tech
+  </text>
+
+ <!-- Clickable LinkedIn -->
+<a href="https://www.linkedin.com/in/beenishmajeed/" target="_blank">
+
+  <text x="450" y="126"
+        text-anchor="middle"
+        font-family="SFMono-Regular,Consolas,monospace"
+        font-size="12"
+        fill="#6a5a8a"
+        style="cursor:pointer">
+    linkedin.com/in/beenishmajeed
+  </text>
+
+</a>
+  <!-- Skills -->
+  <g font-family="SFMono-Regular,Consolas,monospace"
+     font-size="13"
+     font-weight="600">
+
+    <!-- Python -->
+    <rect x="48" y="155"
+          width="100" height="34"
+          rx="17"
+          fill="#2b6ef5"
+          stroke="#2b6ef5"/>
+
+    <text x="98" y="177"
+          text-anchor="middle"
+          fill="#ffffff">
+      Python
+    </text>
+
+    <!-- C++ -->
+    <rect x="160" y="155"
+          width="66" height="34"
+          rx="17"
+          fill="none"
+          stroke="#3d3060"/>
+
+    <text x="193" y="177"
+          text-anchor="middle"
+          fill="#e5e0ff">
+      C++
+    </text>
+
+    <!-- LLMs -->
+    <rect x="238" y="155"
+          width="70" height="34"
+          rx="17"
+          fill="none"
+          stroke="#3d3060"/>
+
+    <text x="273" y="177"
+          text-anchor="middle"
+          fill="#e5e0ff">
+      LLMs
+    </text>
+
+    <!-- RAG -->
+    <rect x="320" y="155"
+          width="66" height="34"
+          rx="17"
+          fill="none"
+          stroke="#3d3060"/>
+
+    <text x="353" y="177"
+          text-anchor="middle"
+          fill="#e5e0ff">
+      RAG
+    </text>
+
+    <!-- APIs -->
+    <rect x="398" y="155"
+          width="70" height="34"
+          rx="17"
+          fill="none"
+          stroke="#3d3060"/>
+
+    <text x="433" y="177"
+          text-anchor="middle"
+          fill="#e5e0ff">
+      APIs
+    </text>
+
+    <!-- AI Agents -->
+    <rect x="480" y="155"
+          width="100" height="34"
+          rx="17"
+          fill="none"
+          stroke="#ff5f9e"/>
+
+    <text x="530" y="177"
+          text-anchor="middle"
+          fill="#ff9dc4">
+      AI Agents
+    </text>
+
+    <!-- Frontend -->
+    <rect x="592" y="155"
+          width="220" height="34"
+          rx="17"
+          fill="none"
+          stroke="#3d3060"/>
+
+    <text x="702" y="177"
+          text-anchor="middle"
+          fill="#e5e0ff">
+      Frontend Development
+    </text>
+
+  </g>
+
 </svg>
