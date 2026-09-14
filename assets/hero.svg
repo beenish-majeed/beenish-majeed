@@ -1,27 +1,28 @@
+
 <svg width="900" height="260" viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <radialGradient id="glow1" cx="15%" cy="10%" r="60%">
       <stop offset="0%" stop-color="#ff2d95" stop-opacity="0.35">
         <animate attributeName="stop-color"
           values="#ff2d95;#7b2ff7;#2b6ef5;#ff2d95"
-          dur="8s" repeatCount="indefinite"/>
+          dur="6s" repeatCount="indefinite"/>
       </stop>
       <stop offset="100%" stop-color="#ff2d95" stop-opacity="0"/>
       <animate attributeName="cx"
         values="15%;35%;15%"
-        dur="10s" repeatCount="indefinite"/>
+        dur="7s" repeatCount="indefinite"/>
     </radialGradient>
 
     <radialGradient id="glow2" cx="85%" cy="15%" r="60%">
       <stop offset="0%" stop-color="#7b2ff7" stop-opacity="0.4">
         <animate attributeName="stop-color"
           values="#7b2ff7;#2b6ef5;#ff2d95;#7b2ff7"
-          dur="8s" repeatCount="indefinite"/>
+          dur="6s" repeatCount="indefinite"/>
       </stop>
       <stop offset="100%" stop-color="#7b2ff7" stop-opacity="0"/>
       <animate attributeName="cx"
         values="85%;65%;85%"
-        dur="10s" repeatCount="indefinite"/>
+        dur="7s" repeatCount="indefinite"/>
     </radialGradient>
   </defs>
 
