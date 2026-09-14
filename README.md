@@ -1,16 +1,27 @@
-## Hi there 👋
+<div align="center">
+  <img src="assets/hero.svg" width="100%" alt="Name, role tagline, and skill pills"/>
+</div>
 
-<!--
-**beenish-majeed/beenish-majeed** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<br/>
 
-Here are some ideas to get you started:
+<div align="center">
+  <img src="assets/stats.svg" width="100%" alt="Forks, repos, and commits"/>
+</div>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<br/>
+
+<div align="center">
+  <img src="assets/stack.svg" width="100%" alt="Stack analytics: language breakdown"/>
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="assets/activity.svg" width="100%" alt="Activity pulse contribution heatmap"/>
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="assets/projects.svg" width="100%" alt="Primary deployments: featured projects"/>
+</div>
