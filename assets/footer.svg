@@ -1,0 +1,43 @@
+<svg width="900" height="110" viewBox="0 0 900 110" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="footerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a78bfa">
+        <animate
+          attributeName="stop-color"
+          values="#a78bfa;#ff5f9e;#e5e0ff;#a78bfa"
+          dur="6s"
+          repeatCount="indefinite"/>
+      </stop>
+
+      <stop offset="100%" stop-color="#e5e0ff">
+        <animate
+          attributeName="stop-color"
+          values="#e5e0ff;#a78bfa;#ff5f9e;#e5e0ff"
+          dur="6s"
+          repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+  </defs>
+
+  <text
+    x="450"
+    y="65"
+    text-anchor="middle"
+    font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace"
+    font-size="17"
+    font-weight="500"
+    fill="url(#footerGradient)">
+
+    <tspan fill="#ff5f9e">✦</tspan>
+    <tspan dx="9">Thanks for stopping by.</tspan>
+
+    <animate
+      attributeName="opacity"
+      values="0.75;1;0.75"
+      dur="4s"
+      repeatCount="indefinite"/>
+
+  </text>
+
+</svg>
