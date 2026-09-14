@@ -14,11 +14,6 @@
   <img src="assets/stack.svg" width="100%" alt="Stack analytics: language breakdown"/>
 </div>
 
-<br/>
 <div align="center">
-
-`Thanks for stopping by!` ✨
-
+  <img src="assets/footer.svg" width="100%" alt="Thanks for stopping by."/>
 </div>
-
-
